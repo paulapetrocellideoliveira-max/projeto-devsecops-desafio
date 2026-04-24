@@ -1,7 +1,6 @@
 const API_KEY = VALOR_API;
 const DB_PASSWORD = SENHA_BANCO_DE_DADOS;
 
-// Busca tarefas do "banco de dados"
 fetch('db.json')
     .then(response => response.json())
     .then(data => {
